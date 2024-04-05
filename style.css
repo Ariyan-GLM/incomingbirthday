@@ -40,6 +40,11 @@ h2{
     -webkit-text-fill-color: transparent;
 }
 
+.p{
+    font-size: 12px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100% );
+}
+
 .big-text{
     color: turquoise;
     font-size: 40px;
