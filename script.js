@@ -1,4 +1,4 @@
-alert("Waiting for your Birthday.")
+alert("Waiting for Aritra's Birthday.")
 
 const daysEl = document.getElementById("days")
 const hoursEl = document.getElementById("hours")
