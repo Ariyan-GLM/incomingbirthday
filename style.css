@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:weight@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+body{
+    background-image: url(https://images.pond5.com/happy-birthday-candles-black-background-087662513_prevstill.jpeg);
+    font-family: "poppins", sans-serif;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    margin: 0;
+
+}
+
+.countdown-container{
+    display: flex;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: -10rem;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100% );
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: -2rem;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100% );
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.big-text{
+    color: turquoise;
+    font-size: 40px;
+    padding: 8px 48px;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
